@@ -1,0 +1,423 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%BoundingBox: 0 0 612 792
+%%Title: Adobe Illustator 3 Editable Document
+%%Creator: ps2ai.ps vers. 2.14 (C) 1993-94 Jason Olszewski
+%%TemplateBox: 0 0 612 792
+%%AI3_Margin:0 0 0 0
+%%EndComments
+%%BeginProlog
+/m {moveto} def /l {lineto} def /c {curveto} def
+/S {stroke} def /F {fill} def
+/s {closepath S} def /f {closepath F} def
+/q {gsave} def /Q {grestore} def /W {clip} def /k {setcmykcolor} def
+/i {setflat} def /J {setlinecap} def /j {setlinejoin} def
+/w {setlinewidth} def /M {setmiterlimit} def /d {setdash} def
+/u {gsave} def /U {grestore} def /K {k} def
+/N {newpath} def /n {closepath N} def
+/g {setgray} def /G {g} def
+/x {pop pop k} def /X {x} def
+/H {} def /h {H closepath} def /D {pop} def
+/*u { /N {/spth 0 def}def /S{/spth 1 def}def /F {/spth 2 def} def} def
+/*U { spth 0 eq {newpath} if spth 1 eq {stroke} if spth 2 eq {fill} if
+     /N {newpath} def /S {stroke} def /F {fill} def  } def
+/TC {pop pop pop} def /Tr {pop} def
+/To {pop gsave} def /TO {grestore} def
+/Tp {pop matrix astore concat} def  /TP {0 0 moveto} def
+/a_str 40 string def /cnt 0 def /h_str (X) def /undsc (_) 0 get def
+/fntfix {a_str cvs dup length 1 sub /f_str exch string def
+  {dup undsc eq {pop}{f_str cnt 3 -1 roll put /cnt cnt 1 add def
+  } ifelse } forall flush /cnt 0 def f_str cvn } bind def
+/Tf {exch fntfix findfont exch scalefont setfont} def /Tx {show} def
+
+userdict /Adobe_packedarray 2 dict dup begin put
+/initialize {} def /terminate {} def
+userdict /Adobe_cmykcolor 2 dict dup begin put
+/initialize {} def /terminate {} def
+userdict /Adobe_cshow 2 dict dup begin put
+/initialize {} def /terminate {} def
+userdict /Adobe_customcolor 2 dict dup begin put
+/initialize {} def /terminate {} def
+userdict /Adobe_typography_AI3 2 dict dup begin put
+/initialize {} def /terminate {} def
+userdict /Adobe_IllustratorA_AI3 2 dict dup begin put
+/initialize {} def /terminate {} def
+%%EndProlog
+%%BeginSetup
+Adobe_packedarray /initialize get exec
+Adobe_cmykcolor /initialize get exec
+Adobe_cshow /initialize get exec
+Adobe_customcolor /initialize get exec
+Adobe_typography_AI3 /initialize get exec
+Adobe_IllustratorA_AI3 /initialize get exec
+%%EndSetup
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 1.0 w 10.0 M [] 0 d
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+[] 0 d
+ 0.8 w
+ 0 j
+ 0 J
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 24.1836 842.082 m
+ 48.1836 842.082 l
+ 48.1836 0.480469 l
+ 24.1836 0.480469 l
+ 24.1836 842.082 l
+ 24.1836 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 56.1836 842.082 m
+ 80.1836 842.082 l
+ 80.1836 0.480469 l
+ 56.1836 0.480469 l
+ 56.1836 842.082 l
+ 56.1836 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 88.1836 842.082 m
+ 112.184 842.082 l
+ 112.184 0.480469 l
+ 88.1836 0.480469 l
+ 88.1836 842.082 l
+ 88.1836 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 120.184 842.082 m
+ 144.184 842.082 l
+ 144.184 0.480469 l
+ 120.184 0.480469 l
+ 120.184 842.082 l
+ 120.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 152.184 842.082 m
+ 176.184 842.082 l
+ 176.184 0.480469 l
+ 152.184 0.480469 l
+ 152.184 842.082 l
+ 152.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 184.184 842.082 m
+ 208.184 842.082 l
+ 208.184 0.480469 l
+ 184.184 0.480469 l
+ 184.184 842.082 l
+ 184.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 216.184 842.082 m
+ 240.184 842.082 l
+ 240.184 0.480469 l
+ 216.184 0.480469 l
+ 216.184 842.082 l
+ 216.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 248.184 842.082 m
+ 272.184 842.082 l
+ 272.184 0.480469 l
+ 248.184 0.480469 l
+ 248.184 842.082 l
+ 248.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 280.184 842.082 m
+ 304.184 842.082 l
+ 304.184 0.480469 l
+ 280.184 0.480469 l
+ 280.184 842.082 l
+ 280.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 312.184 842.082 m
+ 336.184 842.082 l
+ 336.184 0.480469 l
+ 312.184 0.480469 l
+ 312.184 842.082 l
+ 312.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 344.184 842.082 m
+ 368.184 842.082 l
+ 368.184 0.480469 l
+ 344.184 0.480469 l
+ 344.184 842.082 l
+ 344.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 504.184 842.082 m
+ 528.184 842.082 l
+ 528.184 0.480469 l
+ 504.184 0.480469 l
+ 504.184 842.082 l
+ 504.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 536.184 842.082 m
+ 560.184 842.082 l
+ 560.184 0.480469 l
+ 536.184 0.480469 l
+ 536.184 842.082 l
+ 536.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 568.184 842.082 m
+ 592.184 842.082 l
+ 592.184 0.480469 l
+ 568.184 0.480469 l
+ 568.184 842.082 l
+ 568.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 600.184 842.082 m
+ 624.184 842.082 l
+ 624.184 0.480469 l
+ 600.184 0.480469 l
+ 600.184 842.082 l
+ 600.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 632.184 842.082 m
+ 656.184 842.082 l
+ 656.184 0.480469 l
+ 632.184 0.480469 l
+ 632.184 842.082 l
+ 632.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 664.184 842.082 m
+ 688.184 842.082 l
+ 688.184 0.480469 l
+ 664.184 0.480469 l
+ 664.184 842.082 l
+ 664.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 696.184 842.082 m
+ 720.184 842.082 l
+ 720.184 0.480469 l
+ 696.184 0.480469 l
+ 696.184 842.082 l
+ 696.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 728.184 842.082 m
+ 752.184 842.082 l
+ 752.184 0.480469 l
+ 728.184 0.480469 l
+ 728.184 842.082 l
+ 728.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 760.184 842.082 m
+ 784.184 842.082 l
+ 784.184 0.480469 l
+ 760.184 0.480469 l
+ 760.184 842.082 l
+ 760.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 792.184 842.082 m
+ 816.184 842.082 l
+ 816.184 0.480469 l
+ 792.184 0.480469 l
+ 792.184 842.082 l
+ 792.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 376.184 842.082 m
+ 400.184 842.082 l
+ 400.184 0.480469 l
+ 376.184 0.480469 l
+ 376.184 842.082 l
+ 376.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 408.184 842.082 m
+ 432.184 842.082 l
+ 432.184 0.480469 l
+ 408.184 0.480469 l
+ 408.184 842.082 l
+ 408.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 440.184 842.082 m
+ 464.184 842.082 l
+ 464.184 0.480469 l
+ 440.184 0.480469 l
+ 440.184 842.082 l
+ 440.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+ 0 0.462745 0.768627 0.0196078 k
+ 0 0.462745 0.768627 0.0196078 K
+
+
+ 472.184 842.082 m
+ 496.184 842.082 l
+ 496.184 0.480469 l
+ 472.184 0.480469 l
+ 472.184 842.082 l
+ 472.184 842.082 l
+f
+ 0 0 0 1.0 k
+ 0 0 0 1.0 K
+ 1.0 i 0 J 0 j 0.8 w 10.0 M [] 0 d
+%%Note: If Error, make sure there are matched pairs of 'q's and 'Q's
+%%Note: in the file. Add 'Q's before '%%Trailer' until equal
+%%Trailer
+Adobe_IllustratorA_AI3 /terminate get exec
+Adobe_typography_AI3 /terminate get exec
+Adobe_customcolor /terminate get exec
+Adobe_cshow /terminate get exec
+Adobe_cmykcolor /terminate get exec
+Adobe_packedarray /terminate get exec
+ showpage
+%EOF
+%%EndDocument
