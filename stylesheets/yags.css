@@ -148,66 +148,28 @@ div.colborder {
   border-right: 1px solid #eee;
 }
 
-/* Use these classes on an element to push it into the 
-   next column, or to pull it into the previous column.  */
+/* Use these classes on an element to pushup it into the next row, or to pulldown it into the previous row.  */
+.pulldown_1 { margin-top: 1.5em; }
+.pulldown_2 { margin-top: 3em; }
+.pulldown_3 { margin-top: 4.5em; }
+.pulldown_4 { margin-top: 6em; }
+.pulldown_5 { margin-top: 7.5em; }
+.pulldown_6 { margin-top: 9em; }
+.pulldown_7 { margin-top: 10.5em; }
+.pulldown_8 { margin-top: 12em; }
+.pulldown_9 { margin-top: 13.5em; }
+.pulldown_10 { margin-top: 15em; }
 
-.pull_1 { margin-left: -40px;}
-.pull_2 { margin-left: -80px;}
-.pull_3 { margin-left: -120px;}
-.pull_4 { margin-left: -160px;}
-.pull_5 { margin-left: -200px;}
-.pull_6 { margin-left: -240px;}
-.pull_7 { margin-left: -280px;}
-.pull_8 { margin-left: -320px;}
-.pull_9 { margin-left: -360px;}
-.pull_10 { margin-left: -400px;}
-.pull_11 { margin-left: -440px;}
-.pull_12 { margin-left: -480px;}
-.pull_13 { margin-left: -520px;}
-.pull_14 { margin-left: -560px;}
-.pull_15 { margin-left: -600px;}
-.pull_16 { margin-left: -640px;}
-.pull_17 { margin-left: -680px;}
-.pull_18 { margin-left: -720px;}
-.pull_19 { margin-left: -760px;}
-.pull_20 { margin-left: -800px;}
-.pull_21 { margin-left: -840px;}
-.pull_22 { margin-left: -880px;}
-.pull_23 { margin-left: -920px;}
-.pull_24 { margin-left: -960px;}
-.pull_25 { margin-left: -1000px;}
-
-.pull_1, .pull_2, .pull_3, .pull_4, .pull_5, .pull_6, .pull_7, .pull_8, .pull_9, .pull_10, .pull_11, .pull_12, .pull_13, .pull_14, .pull_15, .pull_16, .pull_17, .pull_18, .pull_19, .pull_20, .pull_21, .pull_22, .pull_23, .pull_24, .pull_25 {float:left;position:relative;}
-
-
-.push_1 { margin: 0 -40px 1.5em 40px;}
-.push_2 { margin: 0 -80px 1.5em 80px;}
-.push_3 { margin: 0 -120px 1.5em 120px;}
-.push_4 { margin: 0 -160px 1.5em 160px;}
-.push_5 { margin: 0 -200px 1.5em 200px;}
-.push_6 { margin: 0 -240px 1.5em 240px;}
-.push_7 { margin: 0 -280px 1.5em 280px;}
-.push_8 { margin: 0 -320px 1.5em 320px;}
-.push_9 { margin: 0 -360px 1.5em 360px;}
-.push_10 { margin: 0 -400px 1.5em 400px;}
-.push_11 { margin: 0 -440px 1.5em 440px;}
-.push_12 { margin: 0 -480px 1.5em 480px;}
-.push_13 { margin: 0 -520px 1.5em 520px;}
-.push_14 { margin: 0 -560px 1.5em 560px;}
-.push_15 { margin: 0 -600px 1.5em 600px;}
-.push_16 { margin: 0 -640px 1.5em 640px;}
-.push_17 { margin: 0 -680px 1.5em 680px;}
-.push_18 { margin: 0 -720px 1.5em 720px;}
-.push_19 { margin: 0 -760px 1.5em 760px;}
-.push_20 { margin: 0 -800px 1.5em 800px;}
-.push_21 { margin: 0 -840px 1.5em 840px;}
-.push_22 { margin: 0 -880px 1.5em 880px;}
-.push_23 { margin: 0 -920px 1.5em 920px;}
-.push_24 { margin: 0 -960px 1.5em 960px;}
-.push_25 { margin: 0 -1000px 1.5em 1000px;}
-
-.push_1, .push_2, .push_3, .push_4, .push_5, .push_6, .push_7, .push_8, .push_9, .push_10, .push_11, .push_12, .push_13, .push_14, .push_15, .push_16, .push_17, .push_18, .push_19, .push_20, .push_21, .push_22, .push_23, .push_24, .push_25 {float:right;position:relative;}
-
+.pushup_1 { margin-bottom: 1.5em; }
+.pushup_2 { margin-bottom: 3.0em; }
+.pushup_3 { margin-bottom: 4.5em; }
+.pushup_4 { margin-bottom: 6.0em; }
+.pushup_5 { margin-bottom: 7.5em; }
+.pushup_6 { margin-bottom: 9.0em; }
+.pushup_7 { margin-bottom: 10.5em; }
+.pushup_8 { margin-bottom: 12.0em; }
+.pushup_9 { margin-bottom: 13.5em; }
+.pushup_10 { margin-bottom: 15.0em; }
 
 
 /* Misc classes and elements
@@ -217,7 +179,8 @@ div.colborder {
 .box { 
   padding: 1.5em; 
   margin-bottom: 1.5em; 
-  background: #E5ECF9; 
+  background:#DBDAE0;
+  border:1px solid #D2D1D6;
 }
 
 /* Use this to create a horizontal ruler across a column. */
@@ -261,4 +224,5 @@ hr.space {
 	width: 0;
 	height: 0;
 }
+
 
