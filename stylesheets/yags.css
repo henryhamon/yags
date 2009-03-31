@@ -180,33 +180,33 @@ div.colborder {
 .pull_1, .pull_2, .pull_3, .pull_4, .pull_5, .pull_6, .pull_7, .pull_8, .pull_9, .pull_10, .pull_11, .pull_12, .pull_13, .pull_14, .pull_15, .pull_16, .pull_17, .pull_18, .pull_19, .pull_20, .pull_21, .pull_22, .pull_23, .pull_24, .pull_25 {float:left;position:relative;}
 
 
-.push-1 { margin: 0 -40px 1.5em 40px;}
-.push-2 { margin: 0 -80px 1.5em 80px;}
-.push-3 { margin: 0 -120px 1.5em 120px;}
-.push-4 { margin: 0 -160px 1.5em 160px;}
-.push-5 { margin: 0 -200px 1.5em 200px;}
-.push-6 { margin: 0 -240px 1.5em 240px;}
-.push-7 { margin: 0 -280px 1.5em 280px;}
-.push-8 { margin: 0 -320px 1.5em 320px;}
-.push-9 { margin: 0 -360px 1.5em 360px;}
-.push-10 { margin: 0 -400px 1.5em 400px;}
-.push-11 { margin: 0 -440px 1.5em 440px;}
-.push-12 { margin: 0 -480px 1.5em 480px;}
-.push-13 { margin: 0 -520px 1.5em 520px;}
-.push-14 { margin: 0 -560px 1.5em 560px;}
-.push-15 { margin: 0 -600px 1.5em 600px;}
-.push-16 { margin: 0 -640px 1.5em 640px;}
-.push-17 { margin: 0 -680px 1.5em 680px;}
-.push-18 { margin: 0 -720px 1.5em 720px;}
-.push-19 { margin: 0 -760px 1.5em 760px;}
-.push-20 { margin: 0 -800px 1.5em 800px;}
-.push-21 { margin: 0 -840px 1.5em 840px;}
-.push-22 { margin: 0 -880px 1.5em 880px;}
-.push-23 { margin: 0 -920px 1.5em 920px;}
-.push-24 { margin: 0 -960px 1.5em 960px;}
-.push-25 { margin: 0 -1000px 1.5em 1000px;}
+.push_1 { margin: 0 -40px 1.5em 40px;}
+.push_2 { margin: 0 -80px 1.5em 80px;}
+.push_3 { margin: 0 -120px 1.5em 120px;}
+.push_4 { margin: 0 -160px 1.5em 160px;}
+.push_5 { margin: 0 -200px 1.5em 200px;}
+.push_6 { margin: 0 -240px 1.5em 240px;}
+.push_7 { margin: 0 -280px 1.5em 280px;}
+.push_8 { margin: 0 -320px 1.5em 320px;}
+.push_9 { margin: 0 -360px 1.5em 360px;}
+.push_10 { margin: 0 -400px 1.5em 400px;}
+.push_11 { margin: 0 -440px 1.5em 440px;}
+.push_12 { margin: 0 -480px 1.5em 480px;}
+.push_13 { margin: 0 -520px 1.5em 520px;}
+.push_14 { margin: 0 -560px 1.5em 560px;}
+.push_15 { margin: 0 -600px 1.5em 600px;}
+.push_16 { margin: 0 -640px 1.5em 640px;}
+.push_17 { margin: 0 -680px 1.5em 680px;}
+.push_18 { margin: 0 -720px 1.5em 720px;}
+.push_19 { margin: 0 -760px 1.5em 760px;}
+.push_20 { margin: 0 -800px 1.5em 800px;}
+.push_21 { margin: 0 -840px 1.5em 840px;}
+.push_22 { margin: 0 -880px 1.5em 880px;}
+.push_23 { margin: 0 -920px 1.5em 920px;}
+.push_24 { margin: 0 -960px 1.5em 960px;}
+.push_25 { margin: 0 -1000px 1.5em 1000px;}
 
-.push-1, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9, .push-10, .push-11, .push-12, .push-13, .push-14, .push-15, .push-16, .push-17, .push-18, .push-19, .push-20, .push-21, .push-22, .push-23, .push-24, .push-25 {float:right;position:relative;}
+.push_1, .push_2, .push_3, .push_4, .push_5, .push_6, .push_7, .push_8, .push_9, .push_10, .push_11, .push_12, .push_13, .push_14, .push_15, .push_16, .push_17, .push_18, .push_19, .push_20, .push_21, .push_22, .push_23, .push_24, .push_25 {float:right;position:relative;}
 
 
 
@@ -236,7 +236,7 @@ hr.space {
   color: #fff;
 }
 
-/* Clear */
+/*Clear Floated Elements*/
 
 .clearfix:after, .container:after {
     content: "."; 
@@ -253,5 +253,12 @@ hr.space {
 /* Regular clearing
    apply to column that should drop below previous ones. */
 
-.clear { clear:both; }
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
 
