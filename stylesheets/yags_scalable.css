@@ -1,0 +1,197 @@
+/* -------------------------------------------------------------- 
+			
+			   --- Scalable Grid ---   
+			
+   YAGS (Yet Another Grid System)
+    * Version:         0.0.1 (2009-03-31) YYYY-MM-DD
+    * Website:         http://github.com/henryhamon/yags/
+    * Author: 				 Henry Hamon (www.hamonrails.com.br)
+
+   == STRUCTURE: ========================
+    * Page width:            scalable
+    * Number of columns:     25
+    * Column width:          3.03%
+    * Margin width:          1.01%
+   ======================================
+   
+-------------------------------------------------------------- */
+
+
+/* A container should group all your columns. */
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+/* Use this class on any div.span / container to see the grid. */
+.showgrid { 
+  background: url(asset/grid.png); 
+}
+
+/* Body margin for a sensile default look. */
+body {
+  margin:1.5em 0;	
+}
+
+
+/* Columns
+-------------------------------------------------------------- */
+
+/* Sets up basic grid floating and margin. */
+div.col_1, div.col_2, div.col_3, div.col_4, div.col_5, div.col_6, div.col_7, div.col_8, div.col_9, div.col_10, div.col_11, div.col_12, div.col_13, div.col_14, div.col_15, div.col_16, div.col_17, div.col_18, div.col_19, div.col_20, div.col_21, div.col_22, div.col_23, div.col_24, div.col_25 {float:left;margin-right: 1.01%;}
+
+.col_1 { width: 3.03%;}
+.col_2 { width: 7.07%;}
+.col_3 { width: 11.11%;}
+.col_4 { width: 15.15%;}
+.col_5 { width: 19.19%;}
+.col_6 { width: 23.23%;}
+.col_7 { width: 27.27%;}
+.col_8 { width: 31.31%;}
+.col_9 { width: 35.35%;}
+.col_10 { width: 39.39%;}
+.col_11 { width: 43.43%;}
+.col_12 { width: 47.47%;}
+.col_13 { width: 51.51%;}
+.col_14 { width: 55.55%;}
+.col_15 { width: 59.59%;}
+.col_16 { width: 63.63%;}
+.col_17 { width: 67.67%;}
+.col_18 { width: 71.71%;}
+.col_19 { width: 75.75%;}
+.col_20 { width: 79.79%;}
+.col_21 { width: 83.83%;}
+.col_22 { width: 87.87%;}
+.col_23 { width: 91.91%;}
+.col_24 { width: 95.95%;}
+.col_25, div.col_25 { width: 100%; margin: 0; }
+
+/* Add these to a column to append empty cols. */
+.suffix_1 { padding-right: 4.04%;}
+.suffix_2 { padding-right: 8.08%;}
+.suffix_3 { padding-right: 12.12%;}
+.suffix_4 { padding-right: 16.16%;}
+.suffix_5 { padding-right: 20.2%;}
+.suffix_6 { padding-right: 24.24%;}
+.suffix_7 { padding-right: 28.28%;}
+.suffix_8 { padding-right: 32.32%;}
+.suffix_9 { padding-right: 36.36%;}
+.suffix_10 { padding-right: 40.4%;}
+.suffix_11 { padding-right: 44.44%;}
+.suffix_12 { padding-right: 48.48%;}
+.suffix_13 { padding-right: 52.52%;}
+.suffix_14 { padding-right: 56.56%;}
+.suffix_15 { padding-right: 60.6%;}
+.suffix_16 { padding-right: 64.64%;}
+.suffix_17 { padding-right: 68.68%;}
+.suffix_18 { padding-right: 72.72%;}
+.suffix_19 { padding-right: 76.76%;}
+.suffix_20 { padding-right: 80.8%;}
+.suffix_21 { padding-right: 84.84%;}
+.suffix_22 { padding-right: 88.88%;}
+.suffix_23 { padding-right: 92.92%;}
+.suffix_24 { padding-right: 96.96%;}
+
+/* Add these to a column to prepend empty cols. */
+.prefix__1 { padding-left: 4.04%;}
+.prefix__2 { padding-left: 8.08%;}
+.prefix__3 { padding-left: 12.12%;}
+.prefix__4 { padding-left: 16.16%;}
+.prefix__5 { padding-left: 20.2%;}
+.prefix__6 { padding-left: 24.24%;}
+.prefix__7 { padding-left: 28.28%;}
+.prefix__8 { padding-left: 32.32%;}
+.prefix__9 { padding-left: 36.36%;}
+.prefix__10 { padding-left: 40.4%;}
+.prefix__11 { padding-left: 44.44%;}
+.prefix__12 { padding-left: 48.48%;}
+.prefix__13 { padding-left: 52.52%;}
+.prefix__14 { padding-left: 56.56%;}
+.prefix__15 { padding-left: 60.6%;}
+.prefix__16 { padding-left: 64.64%;}
+.prefix__17 { padding-left: 68.68%;}
+.prefix__18 { padding-left: 72.72%;}
+.prefix__19 { padding-left: 76.76%;}
+.prefix__20 { padding-left: 80.8%;}
+.prefix__21 { padding-left: 84.84%;}
+.prefix__22 { padding-left: 88.88%;}
+.prefix__23 { padding-left: 92.92%;}
+.prefix__24 { padding-left: 96.96%;}
+
+/* Use these classes on an element to pushup it into the next row, or to pulldown it into the previous row.  */
+.pulldown_1 { margin-top: 1.5em; }
+.pulldown_2 { margin-top: 3em; }
+.pulldown_3 { margin-top: 4.5em; }
+.pulldown_4 { margin-top: 6em; }
+.pulldown_5 { margin-top: 7.5em; }
+.pulldown_6 { margin-top: 9em; }
+.pulldown_7 { margin-top: 10.5em; }
+.pulldown_8 { margin-top: 12em; }
+.pulldown_9 { margin-top: 13.5em; }
+.pulldown_10 { margin-top: 15em; }
+
+.pushup_1 { margin-bottom: 1.5em; }
+.pushup_2 { margin-bottom: 3.0em; }
+.pushup_3 { margin-bottom: 4.5em; }
+.pushup_4 { margin-bottom: 6.0em; }
+.pushup_5 { margin-bottom: 7.5em; }
+.pushup_6 { margin-bottom: 9.0em; }
+.pushup_7 { margin-bottom: 10.5em; }
+.pushup_8 { margin-bottom: 12.0em; }
+.pushup_9 { margin-bottom: 13.5em; }
+.pushup_10 { margin-bottom: 15.0em; }
+
+.top        { margin-top:0; padding-top:0; }
+.bottom     { margin-bottom:0; padding-bottom:0; }
+
+/* Misc classes and elements
+-------------------------------------------------------------- */
+
+/* Use a .box to create a padded box inside a column.  */ 
+.box { 
+  padding: 1.5em; 
+  margin-bottom: 1.5em; 
+  background:#DBDAE0;
+  border:1px solid #D2D1D6;
+}
+
+/* Use this to create a horizontal ruler across a column. */
+hr {
+  background: #ddd; 
+  color: #ddd;
+  clear: both; 
+  float: none; 
+  width: 100%; 
+  height: .1em;
+  margin: 0 0 1.45em;
+  border: none; 
+}
+hr.space {
+  background: #fff;
+  color: #fff;
+}
+
+/*Clear Floated Elements*/
+.clearfix:after, .container:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+.clearfix, .container {display: inline-block;}
+* html .clearfix,
+* html .container {height: 1%;}
+.clearfix, .container {display: block;}
+
+/* Regular clearing apply to column that should drop below previous ones. */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
