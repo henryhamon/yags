@@ -15,7 +15,6 @@
     * Column width:          30 px
     * Margin width:          10 px
    ======================================
-
    
 -------------------------------------------------------------- */
 
@@ -171,6 +170,8 @@ div.colborder {
 .pushup_9 { margin-bottom: 13.5em; }
 .pushup_10 { margin-bottom: 15.0em; }
 
+.top        { margin-top:0; padding-top:0; }
+.bottom     { margin-bottom:0; padding-bottom:0; }
 
 /* Misc classes and elements
 -------------------------------------------------------------- */
@@ -200,7 +201,6 @@ hr.space {
 }
 
 /*Clear Floated Elements*/
-
 .clearfix:after, .container:after {
     content: "."; 
     display: block; 
@@ -213,9 +213,7 @@ hr.space {
 * html .container {height: 1%;}
 .clearfix, .container {display: block;}
 
-/* Regular clearing
-   apply to column that should drop below previous ones. */
-
+/* Regular clearing apply to column that should drop below previous ones. */
 .clear {
 	clear: both;
 	display: block;
