@@ -1,7 +1,13 @@
 
 /* TYPOGRAPHY */
-body{font:13px/1.5 helvetica,arial,verdana,'Liberation Sans',FreeSans,sans-serif}
-p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:20px}
+body{
+	font:13px/1.5 "Helvetica Neue",helvetica,arial,verdana,'Liberation Sans',FreeSans,sans-serif;
+}
+
+/* Spacing */
+p,dl,hr,h1,h2,h3,h4,h5,h6,ol,ul,pre,table,address,fieldset{margin-bottom:15px}
+
+/* Headings */
 h1, h2, h3, h4, h5, h6 {letter-spacing: -1px;margin: 1.2em 0 .3em;color:#000;border-bottom: 1px solid #eee;padding-bottom: .1em}
 h1 {font-size: 196%;margin-top:.6em}
 h2 {font-size: 136%}
@@ -9,15 +15,21 @@ h3 {font-size: 126%}
 h4 {font-size: 116%}
 h5 {font-size: 106%}
 h6 {font-size: 96%}
-.highlight {color:#E17000}
-.subdued {color:#999}
-.error {color:#c00;font-weight:bold}
-.success {color:#390;font-weight:bold}
-.caption {color:#999;font-size:11px}
-.date {font: bold 82% arial;color:#bbb;display:block;letter-spacing: 1px}
-small {font-size:11px}
 
-/* LISTS */
+/* Success, notice and error boxes */
+.error,
+.notice, 
+.success    { padding: .8em; margin-bottom: 1em; border: 2px solid #ddd; }
+
+.error      { background: #FBE3E4; color: #8a1f11; border-color: #FBC2C4; }
+.notice     { background: #FFF6BF; color: #514721; border-color: #FFD324; }
+.success    { background: #E6EFC2; color: #264409; border-color: #C6D880; font-weight:bold; }
+.error a    { color: #8a1f11; }
+.notice a   { color: #514721; }
+.success a  { color: #264409; }
+
+
+/* Lists */
 ul {margin: .3em 0 1.5em 0;list-style-type:none}
 	ul.related {margin-top: -1em}
 ol {margin: .5em .5em 1.5em}
@@ -30,41 +42,50 @@ dl {margin: 0 0 1em 0}
 dt {font-weight:bold;margin-top: 1.3em}
 dl dl {margin: 0 0 1.5em 30px}
 
-/* GENERAL */
+/* General */
 img {border:none} 
 hr {margin: 1em 0;background:#f2f2f2;height:1px;color:#f2f2f2;border:none;clear:both}
 .clear {clear:both;position:relative;font-size:0px;height:0px;line-height:0px} 
 
-/* LAYOUT - HEADER */
-#header {background: #666 url("images/sprites.gif") repeat-x 0 100%;margin: 0 0 25px;padding: 0 0 8px}
+/* Misc classes */
+.small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
+.large      { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
+.hide       { display: none; }
 
-	#header #site-name {font: 265% arial;letter-spacing: -.05em;margin:0 0 0 40px;padding:3px 0;color:#ccc;border:none}
-	
-	/* NAV - top horizontal nav */
-	#nav, #nav ul {padding: 0;margin: 0;list-style: none}
-	#nav {font-weight:bold;height:2.09em;font: bold 96% arial;margin: 0 105px 0 40px}
-	#nav li {position:relative;background: #999;float: left;width: 10em;display:block;margin: 0;border-bottom: 3px solid #666;border-right: 3px solid #252525;padding:0}
-	#nav a, #nav a:link, #nav a:visited, #nav a:hover, #nav a:active {text-decoration:none;cursor:pointer;color:#fff;display: block;padding: 4px 10px 2px}
-	#nav a:hover {color:#000}
-	
-	#nav li ul {border-left: 1px solid #c00;background: #f6f6f6 url("images/featurebox_bg.gif") no-repeat 100% 100%;width:15.8em;font-size:90%;margin-top:3px;position: absolute;font-weight:normal;left: -999em}
-	#nav li:hover ul, #nav li.sfhover ul {left: 0;z-index:99999}
-	
-	#nav li li {background:none;float:none;border:none;border: 1px solid #999;border-top:1px solid #fff;border-right:none;border-left:none;padding-left:0}
-	#nav li li.last {border-bottom:none}
-	#nav li li a, #nav li li a:link, #nav li li a:visited, #nav li li a:hover {color:#000;padding: 3px 10px 2px;width:14em}
-	#nav li li a:hover {color:#fff;background:#c00}
-	
-	#nav li.active {background: #c00;border-bottom: 3px solid #c00}
-	#nav li.active ul {border:none;background: #c00 url("images/featurebox2_bg.gif") no-repeat 100% 100%}
-	#nav li.active a:link, #nav li.active a:visited, #nav li.active a:hover, #nav li.active a:active {}
-	#nav li.active a:hover {color:#000}
-	
-	#nav li.active li {border:none;border-top: 1px solid #c15c5c;border-bottom: 1px solid #870000}
-	#nav li.active li.last {border-bottom: none}
-	#nav li.active li a:link, #nav li.active li a:visited, #nav li.active li a:hover, #nav li.active li a:active {color:#fff}
-	#nav li.active li a:hover {background: #666 url("images/sprites.gif") repeat-x 0 99%;color:#fff}
-	
-	#nav li.active li.active a:link, #nav li.active li.active a:visited, #nav li.active li.active a:hover, #nav li.active li.active a:active {color:#fff;font-weight:bold;background: #666 url("images/sprites.gif") repeat-x 0 99%}
+.quiet      { color: #666; }
+.loud       { color: #000; }
+.added      { background:#060; color: #fff; }
+.removed    { background:#900; color: #fff; }
 
+.highlight {color:#E17000}
+.subdued {color:#999}
+.caption {color:#999;font-size:11px}
+.date {font: bold 82% arial;color:#bbb;display:block;letter-spacing: 1px}
+small {font-size:11px}
 
+/* NAV - horizontal navigation */
+.nav, .nav ul {padding: 0;margin: 0;list-style: none}
+.nav {font-weight:bold;height:2.09em;font: bold 96% arial;margin: 0 105px 0 40px}
+.nav li {position:relative;background: #999;float: left;width: 10em;display:block;margin: 0;border-bottom: 3px solid #666;border-right: 3px solid #252525;padding:0}
+.nav a, .nav a:link, .nav a:visited, .nav a:hover, .nav a:active {text-decoration:none;cursor:pointer;color:#fff;display: block;padding: 4px 10px 2px}
+.nav a:hover {color:#000}
+
+.nav li ul {border-left: 1px solid #c00;background: #f6f6f6 url("images/featurebox_bg.gif") no-repeat 100% 100%;width:15.8em;font-size:90%;margin-top:3px;position: absolute;font-weight:normal;left: -999em}
+.nav li:hover ul, .nav li.sfhover ul {left: 0;z-index:99999}
+
+.nav li li {background:none;float:none;border:none;border: 1px solid #999;border-top:1px solid #fff;border-right:none;border-left:none;padding-left:0}
+.nav li li.last {border-bottom:none}
+.nav li li a, .nav li li a:link, .nav li li a:visited, .nav li li a:hover {color:#000;padding: 3px 10px 2px;width:14em}
+.nav li li a:hover {color:#fff;background:#c00}
+
+.nav li.active {background: #c00;border-bottom: 3px solid #c00}
+.nav li.active ul {border:none;background: #c00 url("images/featurebox2_bg.gif") no-repeat 100% 100%}
+.nav li.active a:link, .nav li.active a:visited, .nav li.active a:hover, .nav li.active a:active {}
+.nav li.active a:hover {color:#000}
+
+.nav li.active li {border:none;border-top: 1px solid #c15c5c;border-bottom: 1px solid #870000}
+.nav li.active li.last {border-bottom: none}
+.nav li.active li a:link, .nav li.active li a:visited, .nav li.active li a:hover, .nav li.active li a:active {color:#fff}
+.nav li.active li a:hover {background: #666 url("images/sprites.gif") repeat-x 0 99%;color:#fff}
+
+.nav li.active li.active a:link, .nav li.active li.active a:visited, .nav li.active li.active a:hover, .nav li.active li.active a:active {color:#fff;font-weight:bold;background: #666 url("images/sprites.gif") repeat-x 0 99%}
