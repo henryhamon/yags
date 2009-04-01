@@ -30,22 +30,70 @@ h6 {font-size: 96%}
 
 
 /* Lists */
-ul {margin: .3em 0 1.5em 0;list-style-type:none}
-	ul.related {margin-top: -1em}
+ul {
+	margin: .3em 0 1.5em 0;
+	list-style-type:none
+}
+ul.related {margin-top: -1em}
 ol {margin: .5em .5em 1.5em}
-ol li {margin-left: 1.4em;padding-left: 0;background: none; list-style-type: decimal}
-li {line-height: 1.4em;padding-left: 25px;background: transparent url("images/sprites.gif") no-repeat 0 0}
+ol li {
+	margin-left: 1.4em;
+	padding-left: 0;
+	background: none; 
+	list-style-type: decimal
+}
+li {
+	line-height: 1.4em;
+	padding-left: 25px;
+}
 li.doc {background-position: 3px -500px}
-ul.nomarker li {background:none;padding-left:0}
+ul.nomarker li {
+	background:none;
+	padding-left:0
+}
 
 dl {margin: 0 0 1em 0}
-dt {font-weight:bold;margin-top: 1.3em}
+dt {
+	font-weight:bold;
+	margin-top: 1.3em
+}
 dl dl {margin: 0 0 1.5em 30px}
+
+/* Tables */
+table       { margin-bottom: 1.4em; width:100%; }
+th          { font-weight: bold; }
+th,td,caption { padding: 4px 10px 4px 5px; }
+tr.even td  { background: #E3E3E3; }
 
 /* General */
 img {border:none} 
-hr {margin: 1em 0;background:#f2f2f2;height:1px;color:#f2f2f2;border:none;clear:both}
-.clear {clear:both;position:relative;font-size:0px;height:0px;line-height:0px} 
+hr {
+	margin: 1em 0;
+	background:#f2f2f2;
+	height:1px;
+	color:#f2f2f2;
+	border:none;
+	clear:both
+}
+label{
+	font-weight: bold;
+	text-align: right;
+}
+legend{ 
+	font-weight: bold; 
+	font-size:1.2em; 
+}
+
+/* Form fields  */
+input.text, input.title,
+textarea, select {
+  margin:0.5em 0;
+  border:1px solid #696969;
+}
+input.text:focus, input.title:focus,
+textarea:focus, select:focus {
+  border:1px solid #0F0033;
+}
 
 /* Misc classes */
 .small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
@@ -63,29 +111,95 @@ hr {margin: 1em 0;background:#f2f2f2;height:1px;color:#f2f2f2;border:none;clear:
 .date {font: bold 82% arial;color:#bbb;display:block;letter-spacing: 1px}
 small {font-size:11px}
 
-/* NAV - horizontal navigation */
-.nav, .nav ul {padding: 0;margin: 0;list-style: none}
-.nav {font-weight:bold;height:2.09em;font: bold 96% arial;margin: 0 105px 0 40px}
-.nav li {position:relative;background: #999;float: left;width: 10em;display:block;margin: 0;border-bottom: 3px solid #666;border-right: 3px solid #252525;padding:0}
-.nav a, .nav a:link, .nav a:visited, .nav a:hover, .nav a:active {text-decoration:none;cursor:pointer;color:#fff;display: block;padding: 4px 10px 2px}
+/* Nav - horizontal navigation */
+.nav, .nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none
+}
+.nav {
+	font-weight:bold;
+	height:2.09em;
+	font: bold 96% arial;
+	margin: 0 105px 0 40px
+}
+.nav li {
+	position:relative;
+	background: #999;
+	float: left;
+	width: 10em;
+	display:block;
+	margin: 0;
+	border-bottom: 3px solid #666;
+	border-right: 3px solid #252525;
+	padding:0
+}
+.nav a, .nav a:link, .nav a:visited, .nav a:hover, .nav a:active {
+	text-decoration:none;
+	cursor:pointer;
+	color:#fff;
+	display: block;
+	padding: 4px 10px 2px
+}
 .nav a:hover {color:#000}
 
-.nav li ul {border-left: 1px solid #c00;background: #f6f6f6 url("images/featurebox_bg.gif") no-repeat 100% 100%;width:15.8em;font-size:90%;margin-top:3px;position: absolute;font-weight:normal;left: -999em}
-.nav li:hover ul, .nav li.sfhover ul {left: 0;z-index:99999}
+.nav li ul {
+	border-left: 1px solid #c00;
+	width:15.8em;
+	font-size:90%;
+	margin-top:3px;
+	position: absolute;
+	font-weight:normal;
+	left: -999em
+}
+.nav li:hover ul, .nav li.sfhover ul {
+	left: 0;
+	z-index:99999
+}
 
-.nav li li {background:none;float:none;border:none;border: 1px solid #999;border-top:1px solid #fff;border-right:none;border-left:none;padding-left:0}
+.nav li li {
+	background:none;
+	float:none;
+	border:none;
+	border: 1px solid #999;
+	border-top:1px solid #fff;
+	border-right:none;
+	border-left:none;
+	padding-left:0
+}
 .nav li li.last {border-bottom:none}
-.nav li li a, .nav li li a:link, .nav li li a:visited, .nav li li a:hover {color:#000;padding: 3px 10px 2px;width:14em}
-.nav li li a:hover {color:#fff;background:#c00}
+.nav li li a, .nav li li a:link, .nav li li a:visited, .nav li li a:hover {
+	color:#000;
+	padding: 3px 10px 2px;
+	width:14em
+}
+.nav li li a:hover {
+	color:#fff;
+	background:#c00
+}
 
-.nav li.active {background: #c00;border-bottom: 3px solid #c00}
-.nav li.active ul {border:none;background: #c00 url("images/featurebox2_bg.gif") no-repeat 100% 100%}
+.nav li.active {
+	background: #c00;
+	border-bottom: 3px solid #c00
+}
+.nav li.active ul {
+	border:none;
+	background: #c00
+}
 .nav li.active a:link, .nav li.active a:visited, .nav li.active a:hover, .nav li.active a:active {}
 .nav li.active a:hover {color:#000}
 
-.nav li.active li {border:none;border-top: 1px solid #c15c5c;border-bottom: 1px solid #870000}
+.nav li.active li {
+	border:none;
+	border-top: 1px solid #c15c5c;
+	border-bottom: 1px solid #870000
+}
 .nav li.active li.last {border-bottom: none}
 .nav li.active li a:link, .nav li.active li a:visited, .nav li.active li a:hover, .nav li.active li a:active {color:#fff}
-.nav li.active li a:hover {background: #666 url("images/sprites.gif") repeat-x 0 99%;color:#fff}
+.nav li.active li a:hover {background: #666;color:#fff}
 
-.nav li.active li.active a:link, .nav li.active li.active a:visited, .nav li.active li.active a:hover, .nav li.active li.active a:active {color:#fff;font-weight:bold;background: #666 url("images/sprites.gif") repeat-x 0 99%}
+.nav li.active li.active a:link, .nav li.active li.active a:visited, .nav li.active li.active a:hover, .nav li.active li.active a:active {
+	color:#fff;
+	font-weight:bold;
+	background: #666 
+}
