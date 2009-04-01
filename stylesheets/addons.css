@@ -96,20 +96,38 @@ textarea:focus, select:focus {
 }
 
 /* Misc classes */
-.small      { font-size: .8em; margin-bottom: 1.875em; line-height: 1.875em; }
-.large      { font-size: 1.2em; line-height: 2.5em; margin-bottom: 1.25em; }
-.hide       { display: none; }
+.small{ 
+	font-size: .8em; 
+	margin-bottom: 1.875em; 
+	line-height: 1.875em; 
+}
+.large{ 
+	font-size: 1.2em; 
+	line-height: 2.5em; 
+	margin-bottom: 1.25em; 
+}
+.hide{ display: none; }
 
-.quiet      { color: #666; }
-.loud       { color: #000; }
-.added      { background:#060; color: #fff; }
-.removed    { background:#900; color: #fff; }
+.quiet{ color: #666; }
+.loud{ color: #000; }
+.added{ 
+	background:#060; 
+	color: #fff; 
+}
+.removed{ 
+	background:#900; 
+	color: #fff; 
+}
 
 .highlight {color:#E17000}
 .subdued {color:#999}
 .caption {color:#999;font-size:11px}
-.date {font: bold 82% arial;color:#bbb;display:block;letter-spacing: 1px}
-small {font-size:11px}
+.date {
+	font: bold 82% arial;
+	color:#bbb;
+	display:block;
+	letter-spacing: 1px
+}
 
 /* Nav - horizontal navigation */
 .nav, .nav ul {
