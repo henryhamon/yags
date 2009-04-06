@@ -79,6 +79,7 @@ div.col_1, div.col_2, div.col_3, div.col_4, div.col_5, div.col_6, div.col_7, div
 
 
 /* Add these to a column to append empty cols. */
+.suffix_half  { padding-right: 20px;}
 .suffix_1  { padding-right: 40px;}
 .suffix_2  { padding-right: 80px;}
 .suffix_3  { padding-right: 120px;}
@@ -106,6 +107,7 @@ div.col_1, div.col_2, div.col_3, div.col_4, div.col_5, div.col_6, div.col_7, div
 
 
 /* Add these to a column to prepend empty cols. */
+.prefix_half  { padding-left: 20px;}
 .prefix_1  { padding-left: 40px;}
 .prefix_2  { padding-left: 80px;}
 .prefix_3  { padding-left: 120px;}
