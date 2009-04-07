@@ -68,6 +68,8 @@ div.col_1, div.col_2, div.col_3, div.col_4, div.col_5, div.col_6, div.col_7, div
 .col_25, div.col_25 { width: 100%; margin: 0; }
 
 /* Add these to a column to append empty cols. */
+.suffix_quarter { padding-right: 1.01%;}
+.suffix_half { padding-right: 2.02%;}
 .suffix_1 { padding-right: 4.04%;}
 .suffix_2 { padding-right: 8.08%;}
 .suffix_3 { padding-right: 12.12%;}
@@ -94,30 +96,32 @@ div.col_1, div.col_2, div.col_3, div.col_4, div.col_5, div.col_6, div.col_7, div
 .suffix_24 { padding-right: 96.96%;}
 
 /* Add these to a column to prepend empty cols. */
-.prefix__1 { padding-left: 4.04%;}
-.prefix__2 { padding-left: 8.08%;}
-.prefix__3 { padding-left: 12.12%;}
-.prefix__4 { padding-left: 16.16%;}
-.prefix__5 { padding-left: 20.2%;}
-.prefix__6 { padding-left: 24.24%;}
-.prefix__7 { padding-left: 28.28%;}
-.prefix__8 { padding-left: 32.32%;}
-.prefix__9 { padding-left: 36.36%;}
-.prefix__10 { padding-left: 40.4%;}
-.prefix__11 { padding-left: 44.44%;}
-.prefix__12 { padding-left: 48.48%;}
-.prefix__13 { padding-left: 52.52%;}
-.prefix__14 { padding-left: 56.56%;}
-.prefix__15 { padding-left: 60.6%;}
-.prefix__16 { padding-left: 64.64%;}
-.prefix__17 { padding-left: 68.68%;}
-.prefix__18 { padding-left: 72.72%;}
-.prefix__19 { padding-left: 76.76%;}
-.prefix__20 { padding-left: 80.8%;}
-.prefix__21 { padding-left: 84.84%;}
-.prefix__22 { padding-left: 88.88%;}
-.prefix__23 { padding-left: 92.92%;}
-.prefix__24 { padding-left: 96.96%;}
+.prefix_quarter { padding-left: 1.01%;}
+.prefix_half { padding-left: 2.02%;}
+.prefix_1 { padding-left: 4.04%;}
+.prefix_2 { padding-left: 8.08%;}
+.prefix_3 { padding-left: 12.12%;}
+.prefix_4 { padding-left: 16.16%;}
+.prefix_5 { padding-left: 20.2%;}
+.prefix_6 { padding-left: 24.24%;}
+.prefix_7 { padding-left: 28.28%;}
+.prefix_8 { padding-left: 32.32%;}
+.prefix_9 { padding-left: 36.36%;}
+.prefix_10 { padding-left: 40.4%;}
+.prefix_11 { padding-left: 44.44%;}
+.prefix_12 { padding-left: 48.48%;}
+.prefix_13 { padding-left: 52.52%;}
+.prefix_14 { padding-left: 56.56%;}
+.prefix_15 { padding-left: 60.6%;}
+.prefix_16 { padding-left: 64.64%;}
+.prefix_17 { padding-left: 68.68%;}
+.prefix_18 { padding-left: 72.72%;}
+.prefix_19 { padding-left: 76.76%;}
+.prefix_20 { padding-left: 80.8%;}
+.prefix_21 { padding-left: 84.84%;}
+.prefix_22 { padding-left: 88.88%;}
+.prefix_23 { padding-left: 92.92%;}
+.prefix_24 { padding-left: 96.96%;}
 
 /* Use these classes on an element to pushup it into the next row, or to pulldown it into the previous row.  */
 .pulldown_1 { margin-top: 1.5em; }
