@@ -1,20 +1,22 @@
 /* -----------------------------------------------------------------------
 
+   YAGS (Yet Another Grid System)
+    * Version:         0.0.1 (2009-04-14) YYYY-MM-DD
+    * Website:         http://github.com/henryhamon/yags/
+    * Author: 				 Henry Hamon (www.hamonrails.com.br)
 
- Blueprint CSS Framework 0.8
- http://blueprintcss.org
+   Based on:
+    * BlueprintCSS
+    * 960gs
 
-   * Copyright (c) 2007-Present. See LICENSE for more info.
-   * See README for instructions on how to use Blueprint.
-   * For credits and origins, see AUTHORS.
-   * This is a compressed file. See the sources in the 'src' directory.
+   * Copyright (c) 2009-Present. See LICENSE for more info.
 
 ----------------------------------------------------------------------- */
 
 /* ie.css */
 body {text-align:center;}
 .container {text-align:left;}
-* html .column, * html div.span-1, * html div.span-2, * html div.span-3, * html div.span-4, * html div.span-5, * html div.span-6, * html div.span-7, * html div.span-8, * html div.span-9, * html div.span-10, * html div.span-11, * html div.span-12, * html div.span-13, * html div.span-14, * html div.span-15, * html div.span-16, * html div.span-17, * html div.span-18, * html div.span-19, * html div.span-20, * html div.span-21, * html div.span-22, * html div.span-23, * html div.span-24 {overflow-x:hidden;}
+* html .column, * html div.col_1, * html div.col_2, * html div.col_3, * html div.col_4, * html div.col_5, * html div.col_6, * html div.col_7, * html div.col_8, * html div.col_9, * html div.col_10, * html div.col_11, * html div.col_12, * html div.col_13, * html div.col_14, * html div.col_15, * html div.col_16, * html div.col_17, * html div.col_18, * html div.col_19, * html div.col_20, * html div.col_21, * html div.col_22, * html div.col_23, * html div.col_24, * html div.col_25 {overflow-x:hidden;}
 * html legend {margin:0px -8px 16px 0;padding:0;}
 ol {margin-left:2em;}
 sup {vertical-align:text-top;}
