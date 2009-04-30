@@ -1,6 +1,6 @@
-@import url('yags.css');
-@import url('addons.css');
-[if IE] 
-	@import url('ie.css');
+@import url('yags_compress.css');
+@import url('addons_compress.css');
+[if IE]
+	@import url('ie_compress.css');
 [endif]
 
