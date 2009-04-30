@@ -1,5 +1,5 @@
-/* -------------------------------------------------------------- 
-   
+/* --------------------------------------------------------------
+
    YAGS (Yet Another Grid System)
     * Version:         0.0.1 (2009-03-30) YYYY-MM-DD
     * Website:         http://github.com/henryhamon/yags/
@@ -8,14 +8,14 @@
    Based on:
     * BlueprintCSS
     * 960gs
-    
+
    == STRUCTURE: ========================
     * Page width:            990 px
     * Number of columns:     25
     * Column width:          30 px
     * Margin width:          10 px
    ======================================
-   
+
 -------------------------------------------------------------- */
 
 /* A container should group all your columns. */
@@ -25,13 +25,13 @@
 }
 
 /* Use this class on any div.span / container to see the grid. */
-.showgrid { 
-  background: url(asset/grid.png); 
+.showgrid {
+  background: url(asset/grid.png);
 }
 
 /* Body margin for a sensile default look. */
 body {
-  margin:1.5em 0;	
+  margin:1.5em 0;
 }
 
 
@@ -109,7 +109,7 @@ div.col_1, div.col_2, div.col_3, div.col_4, div.col_5, div.col_6, div.col_7, div
 
 /* Add these to a column to prepend empty cols. */
 .prefix_quarter { padding-left: 10px;}
-.prefix_half    { padding-left: 10px;}
+.prefix_half    { padding-left: 20px;}
 .prefix_1  { padding-left: 40px;}
 .prefix_2  { padding-left: 80px;}
 .prefix_3  { padding-left: 120px;}
@@ -180,24 +180,24 @@ div.colborder {
 /* Misc classes and elements
 -------------------------------------------------------------- */
 
-/* Use a .box to create a padded box inside a column.  */ 
-.box { 
-  padding: 1.5em; 
-  margin-bottom: 1.5em; 
+/* Use a .box to create a padded box inside a column.  */
+.box {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
   background:#DBDAE0;
   border:1px solid #D2D1D6;
 }
 
 /* Use this to create a horizontal ruler across a column. */
 hr {
-  background: #ddd; 
+  background: #ddd;
   color: #ddd;
-  clear: both; 
-  float: none; 
-  width: 100%; 
+  clear: both;
+  float: none;
+  width: 100%;
   height: .1em;
   margin: 0 0 1.45em;
-  border: none; 
+  border: none;
 }
 hr.space {
   background: #fff;
@@ -206,10 +206,10 @@ hr.space {
 
 /*Clear Floated Elements*/
 .clearfix:after, .container:after {
-    content: "."; 
-    display: block; 
-    height: 0; 
-    clear: both; 
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
     visibility: hidden;
 }
 .clearfix, .container {display: inline-block;}
@@ -226,5 +226,4 @@ hr.space {
 	width: 0;
 	height: 0;
 }
-
 
